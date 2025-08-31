@@ -1,0 +1,95 @@
+*
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin : 5px;
+}
+
+h1
+{
+    text-align: center;
+    color: darkgreen;
+    font-size : 3em;
+    margin : 20px;
+    padding: 10px;
+    text-decoration-line: underline;
+  
+}
+
+form
+{
+    padding-top:20px;
+    text-align: center;
+    font-size : 40px;
+}
+select:open
+{
+    background-color: lightblue;
+}
+select
+{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    margin: 10px;
+}
+form input[type="number"]
+{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    margin: 10px;
+    background-color: lightyellow;
+}
+#btn-submit
+{
+    display:block;
+    margin:auto;
+    margin-top:30px;
+    size:fit-content;
+    font-size: 1em;
+    background-color: darkseagreen;
+    border : 5px solid darkgreen;
+    border-radius:10px;
+}
+#btn-submit:hover
+{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+
+#result
+{
+    margin:50px;
+    text-align:center;
+}
+
+#result > h3
+{
+    text-decoration:underline;
+    text-align: center;
+    color:blue;
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+#result > p
+{
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#result button
+{
+    margin:auto;
+    size:fit-content;
+    font-size: 30px;
+    background-color: lightcoral;
+    border : 5px solid brown;
+    border-radius:10px;
+}
+#result button:hover
+{
+    background-color: red;
+    cursor: pointer;
+}
