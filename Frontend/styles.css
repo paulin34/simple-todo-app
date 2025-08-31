@@ -1,0 +1,62 @@
+    * {
+        font-size:25px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #Titlu {
+        color:burlywood;
+        text-align: center;
+        font-size : 3rem;
+        font-family : Arial, Helvetica, sans-serif;
+        text-decoration : underline;
+        text-decoration-thickness: 5px;
+
+        margin-top : 0;
+    }
+    form
+    {
+        padding-left:10%;
+    }
+    input
+    {
+        align-items: center;
+    }
+    #tasks
+    {
+        padding-left:10%;
+        padding-top:20px;
+    }
+    li 
+    {
+        margin-top:0.4rem;
+        background-color: antiquewhite;
+        width: fit-content;
+    }
+    ul
+    {
+        padding:0;
+    }
+    .delete
+    {
+        background-color: lightgreen;
+        color:green;
+        font-weight:bold;
+        margin-left:20px;
+    }
+    .delete:hover
+    {
+        color:greenyellow;
+    }
+
+    .created_at
+    {
+        font-weight: bold;
+        border-style:solid;
+        padding-left:10px;
+        color:blue;
+        background-color:beige;
+        display:none;
+    }
+    .created_at.visible
+    {
+        display:inline;
+    }
